@@ -11,6 +11,13 @@ The application UI layout has been kept simple, and interactive after going thro
 |Templating      |`TypeScript`|
 |Hosting      |`Firebase Hosting`|
 
+# Run this project on local environment
+Make sure, Node.js, npm, and related packages are installed in your system to run a `create-react-app` application
+- clone this repository: `git clone https://github.com/shivamsingh25/bank-landing-page.git`
+- navigate to the project root folder: `cd bank-landing-page`
+- Install dependencies: run `npm install`
+- Start the local development server: run `npm start`
+- Production build: run `npm build`
 
 # Live Demo
 Live Demo Link:  [https://bank-landing-page.web.app/](https://bank-landing-page.web.app/)
