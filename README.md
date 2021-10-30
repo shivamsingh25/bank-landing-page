@@ -37,6 +37,8 @@ This application is not completed nor perfect, hence the following future work c
 - Integrating and importing SVG icons as TypeScript components instead of inline integration.
 - Using props for component's conditional rendering
 - Using manual or use of validation packages for data validation of forms in frontend as well as backend.
+- The app can be made more responsive
+- The Signup/ Signin experience can be made seemless with better UX
 
 ---
 This project application uses open source frameworks, royalty free stock images from [Pexels](https://www.pexels.com/), and icons.

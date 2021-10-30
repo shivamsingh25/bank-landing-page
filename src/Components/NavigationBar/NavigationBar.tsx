@@ -12,7 +12,7 @@ const NavigationBar: React.FC<NavigationBarProps> = () => {
         >
           <span className="ml-3 text-xl">ABC Bank</span>
         </a>
-        <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center space-x-4">
+        <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center space-x-4 space-y-2">
           <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
