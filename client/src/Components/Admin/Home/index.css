@@ -1,0 +1,21 @@
+.details {
+    margin: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  
+  .details span {
+    font-weight: bold;
+  }
+  
+  
+  
+  @media screen and (max-width: 700px) {
+    .details {
+      margin: 10px 10px 10px 10px;
+      padding: 25px 10px 25px 10px;
+    }
+  }
+  

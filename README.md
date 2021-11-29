@@ -50,3 +50,48 @@ This application is not completed nor perfect, hence the following future work c
 ---
 This project application uses open source frameworks, royalty free stock images from [Pexels](https://www.pexels.com/), and icons.
 The text in the application has been picked up from [Salt.pe](https://salt.pe) for relevant content representation, and does not try to replicate any brand or personality in any form. 
+
+
+
+
+
+---
+
+Full Stack and Front end Developers Task#1
+Launching a Mini Bank
+1. Create/Set at least 3 users - no need to create in database, login password based login is fine.  On frontend is also fine. They have these three roles - User, User, Admin
+2. When the user login, they are taken to account management page, where they can see the following
+    1. Side bar with “Home”, “Transactions”, “Transfer”
+    2. Home displays the current account balance and account number ( random assigned 16 digit numeric )
+    3. Transactions displays all the transactions happening in the User’s account
+    4. Transfer displays a form to transfer amount from their account to another user account using account number.
+3. The login by admin, takes them to a bank management page, where they can see the following:
+    1. A sidebar with the following: “Home”, “Users”, “Credit/Debit”
+    2. Home displays the total amount deposited in the bank, total number of users
+    3. Users displays a table of users with their name, account number, balance, and button to add new users.
+    4. The Credit/Debit page displays a form to deposit ( credit) or withdraw ( debit) amount to or from the User’s account.
+Stack required:
+Node+Express, ReactJS, MongoDB
+The backend has to be developed in Node
+The frontend has to be developed in React
+Enabling persistence using Mongo DB is optional but recommended
+
+
+----
+
+User 1 details
+
+email: user@shivamsr.com
+password: 12345
+a/c no.: 8842091747046631
+
+User 2 details
+
+email: hello@shivamsr.com
+password: 12345
+a/c no.: 8842091837046631
+
+admin 
+
+email: admin@shivamsr.com
+password: 12345
